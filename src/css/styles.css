@@ -33,13 +33,17 @@ a:hover {
     text-align: center;
 }
 
+.teknisk-museum-logo {
+    margin: 20px 0;
+    display: inline-block;
+}
+
 .slack-join-link {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 4px;
 }
-
 
 .slack-join-link img {
     height: 20px;
