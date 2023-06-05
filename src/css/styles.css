@@ -1,0 +1,46 @@
+:root {
+    --color-background: #ffffff;
+    --color-primary: #4685ff;
+    --color-secondary: #f2f2f2;
+    --color-accent: #ffb084;
+}
+
+body {
+    background-color: var(--color-background);
+    font-family: 'Inter', sans-serif;
+}
+
+a, a:visited {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-wrapper {
+    padding: 20px 20px;
+    min-height: 600px;
+}
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.page-index {
+    text-align: center;
+}
+
+.slack-join-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+
+.slack-join-link img {
+    height: 20px;
+}
