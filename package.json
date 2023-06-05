@@ -4,7 +4,9 @@
   "description": "Internkonferanse for Utvikling og Data i NAV IT.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
   },
   "author": "",
   "license": "ISC",
