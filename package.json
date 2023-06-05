@@ -1,0 +1,11 @@
+{
+  "name": "nitd23",
+  "version": "1.0.0",
+  "description": "Internkonferanse for Utvikling og Data i NAV IT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

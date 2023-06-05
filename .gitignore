@@ -1,0 +1,8 @@
+node_modules/
+
+# 11ty:
+_site
+
+# Idea project files:
+*.iml
+.idea/
