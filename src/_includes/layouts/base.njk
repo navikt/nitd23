@@ -1,0 +1,28 @@
+---
+pageClass: base
+description: "NAV IT Tech Day 2023 – Fagdag for Utvikling og Data"
+---
+
+<!doctype html>
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if title %}{{ title }} | {% endif %} NITD 2023</title>
+    <meta name="description" content="{{description}}" />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+</head>
+<body>
+<header class="header">
+    <span><a href="/">Hjem</a></span>
+</header>
+<div class="main-wrapper">
+    <main class="main page-{{pageClass}}">
+        {{ content | safe }}
+    </main>
+</div>
+<footer class="footer">
+    <span><a href="{{ site.githubRepoUrl }}/blob/main/{{ page.inputPath }}">Rediger på GitHub</a></span>
+</footer>
+</body>
+</html>
