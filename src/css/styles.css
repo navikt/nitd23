@@ -48,3 +48,18 @@ a:hover {
 .slack-join-link img {
     height: 20px;
 }
+
+.description-box {
+    text-align: left;
+}
+
+.description-box ul {
+    padding-left: 20px;
+}
+
+.form-link {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
