@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 module.exports = function (eleventyConfig) {
-  const passthroughDirs = ["src/img", "src/css", "src/fonts"];
+  const passthroughDirs = ["src/img", "src/css", "src/fonts", "CNAME"];
   passthroughDirs.forEach((dir) => eleventyConfig.addPassthroughCopy(dir));
 
   const getSvgContent = function (file) {
