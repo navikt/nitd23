@@ -33,6 +33,14 @@ a:hover {
     text-align: center;
 }
 
+.banner-logo {
+    padding: 10px;
+}
+.banner-logo img {
+    width: 80%;
+    min-width: 200px;
+}
+
 .teknisk-museum-logo {
     margin: 20px 0;
     display: inline-block;
