@@ -1,0 +1,17 @@
+
+{
+  "name": "NAV IT Tech Day 2023",
+  "short_name": "NITD23",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "NITD23 – Tilbake til fremtiden",
+  "icons": [
+    {
+      "src": "/img/nitd23.png",
+      "sizes": "109x109",
+      "type": "image/png"
+    }
+  ]
+}
