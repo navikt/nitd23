@@ -9,6 +9,7 @@ body {
     background-color: var(--color-background);
     background-image: url('/img/Cityscape_3.png');
     background-position-x: center;
+    background-size: cover;
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
