@@ -93,4 +93,17 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.komite {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.komite div {
+    width: 33%;
+}
+
+.komite img {
+    height: 100px;
+}
