@@ -1,8 +1,3 @@
----
-pageClass: base
-description: "NAV IT Tech Day 2023 – Fagdag for Utvikling og Data"
----
-
 <!doctype html>
 <html lang="no">
     <head>
@@ -16,9 +11,20 @@ description: "NAV IT Tech Day 2023 – Fagdag for Utvikling og Data"
     </head>
     <body>
         <div class="main-wrapper">
-            <main class="main page-{{pageClass}}">
-                {{ content | safe }}
-            </main>
+            <div class="main page-info">
+                <div class="banner-logo">
+                    <img src="/img/NITD23_logo_cutout.svg" alt="Tilbake til fremtiden – NITD23"/>
+                </div>
+
+                <nav>
+                    <a href="/../">Hjem</a>
+                    <a href="/info">Praktisk info</a>
+                </nav>
+                <br/>
+                <div class="info-box">
+                    Her vil det etterhvert komme nyttig informajson om dagen
+                </div>
+            </div>
         </div>
     </body>
 </html>
