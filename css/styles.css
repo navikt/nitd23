@@ -52,6 +52,8 @@ a:hover {
     background: black;
     position: fixed;
     width: 100%;
+    align-items: center;
+    display: flex;
 }
 .navigation a {
     padding: 10px;
