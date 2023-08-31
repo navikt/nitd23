@@ -15,9 +15,22 @@ description: "NAV IT Tech Day 2023 – Fagdag for Utvikling og Data"
         <link rel="stylesheet" type="text/css" href="/css/styles.css" />
     </head>
     <body>
+    <nav class="navigation">
+        <a href="/index"><img src="/img/NITD23_logo_cutout.svg" alt="Tilbake til fremtiden – NITD23"/></a>
+        <a href="/index"><b>Hjem</b></a>
+        <a href="/program"><b>Programmet</b></a>
+        <a href="/info"><b>Praktisk info</b></a>
+    </nav>
+
+    <div class="banner-logo">
+        <img src="/img/NITD23_logo_cutout.svg" alt="Tilbake til fremtiden – NITD23"/>
+    </div>
+
         <div class="main-wrapper">
             <main class="main page-{{pageClass}}">
+                <div class="wrapper-pane">
                 {{ content | safe }}
+                </div>
             </main>
         </div>
     </body>
