@@ -135,3 +135,67 @@ a:hover {
 .info-museet{
     text-align: left;
 }
+
+.fellessesjon-programheader {
+    display: grid;
+    grid-template-columns: 100px auto;
+    text-align: center;
+    grid-gap: 10px;
+}
+
+.fellessesjon-programheader .aktivitet {
+    background: #983590;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.fellessesjon {
+    display: grid;
+    grid-template-columns: 100px auto;
+    text-align: center;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.fellessesjon .tid{
+    border-radius: 10px;
+    background: #F5A06D;
+}
+
+.fellessesjon .aktivitet{
+    border-radius: 10px;
+    background: #F5A06D;
+}
+
+.track-programheader {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.track-programheader .aktivitet {
+    background: #983590;
+    border-radius: 10px;
+}
+
+.track {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.track .tid{
+    border-radius: 10px;
+    background: #91D6E4;
+}
+
+.track .aktivitet{
+    border-radius: 10px;
+    background: #91D6E4;
+}
