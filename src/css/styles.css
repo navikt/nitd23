@@ -117,14 +117,14 @@ a:hover {
 }
 
 .komite {
-    width: 650px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.komite div {
-    width: 33%;
+.komite-person {
+    width: 110px;
+    min-width: 33%;
 }
 
 .komite img {
