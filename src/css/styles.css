@@ -65,9 +65,8 @@ a:hover {
 }
 
 .banner-logo {
-    padding: 10px;
     max-width: 600px;
-    margin: 40px auto;
+    margin: 100px auto 0 auto;
     text-align: center;
 }
 .banner-logo img {
