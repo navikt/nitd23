@@ -24,6 +24,10 @@ a, a:visited {
 a:hover {
     text-decoration: underline;
 }
+.info-program a, a:visited {
+    color: var(--color-primary);
+    text-decoration: none;
+}
 
 .main-wrapper {
     min-height: 600px;
@@ -135,6 +139,10 @@ a:hover {
     text-align: left;
 }
 
+.info-presentasjon{
+    text-align: left;
+}
+
 .fellessesjon-programheader {
     display: grid;
     grid-template-columns: 12% auto;
@@ -143,6 +151,19 @@ a:hover {
 }
 
 .fellessesjon-programheader .aktivitet {
+    background: #983590;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.fellessesjon-workshop-programheader {
+    display: grid;
+    grid-template-columns: 12% 3fr 1fr;
+    text-align: center;
+    grid-gap: 10px;
+}
+
+.fellessesjon-workshop-programheader .aktivitet {
     background: #983590;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -167,9 +188,28 @@ a:hover {
     background: #F5A06D;
 }
 
+.fellessesjon-workshop {
+    display: grid;
+    grid-template-columns: 12% 3fr 1fr;
+    text-align: center;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.fellessesjon-workshop .tid{
+    border-radius: 10px;
+    background: #F5A06D;
+}
+
+.fellessesjon-workshop .aktivitet{
+    border-radius: 10px;
+    background: #F5A06D;
+}
+
 .track-programheader {
     display: grid;
-    grid-template-columns: 12% 1fr 1fr 1fr;
+    grid-template-columns: 12% 1fr 1fr 1fr 1fr;
     text-align: center;
     grid-gap: 10px;
     margin-bottom: 10px;
@@ -183,7 +223,7 @@ a:hover {
 
 .track {
     display: grid;
-    grid-template-columns: 12% 1fr 1fr 1fr;
+    grid-template-columns: 12% 1fr 1fr 1fr 1fr;
     text-align: center;
     grid-gap: 10px;
     margin-bottom: 10px;
