@@ -2,6 +2,7 @@
     --color-background: #000000;
     --color-primary: #983690;
     --color-secondary: #F5A06D;
+    --color-tertiary: #91D6E4;
 }
 
 body {
@@ -53,7 +54,7 @@ a:hover {
 }
 
 .navigation {
-    background: black;
+    background: var(--color-background);
     position: fixed;
     width: 100%;
     align-items: center;
@@ -151,7 +152,7 @@ a:hover {
 }
 
 .fellessesjon-programheader .aktivitet {
-    background: #983590;
+    background: var(--color-primary);
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -164,7 +165,7 @@ a:hover {
 }
 
 .fellessesjon-workshop-programheader .aktivitet {
-    background: #983590;
+    background: var(--color-primary);
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -175,17 +176,17 @@ a:hover {
     text-align: center;
     grid-gap: 10px;
     margin-bottom: 10px;
-    color: black;
+    color: var(--color-background);
 }
 
 .fellessesjon .tid{
     border-radius: 10px;
-    background: #F5A06D;
+    background: var(--color-secondary);
 }
 
 .fellessesjon .aktivitet{
     border-radius: 10px;
-    background: #F5A06D;
+    background: var(--color-secondary);
 }
 
 .fellessesjon-workshop {
@@ -194,17 +195,22 @@ a:hover {
     text-align: center;
     grid-gap: 10px;
     margin-bottom: 10px;
-    color: black;
+    color: var(--color-background);
 }
 
 .fellessesjon-workshop .tid{
     border-radius: 10px;
-    background: #F5A06D;
+    background: var(--color-secondary);
 }
 
 .fellessesjon-workshop .aktivitet{
     border-radius: 10px;
-    background: #F5A06D;
+    background: var(--color-secondary);
+}
+
+.fellessesjon-workshop .aktivitet-ws{
+    border-radius: 10px;
+    background: var(--color-tertiary);
 }
 
 .track-programheader {
@@ -217,7 +223,7 @@ a:hover {
 }
 
 .track-programheader .aktivitet {
-    background: #983590;
+    background: var(--color-primary);
     border-radius: 10px;
 }
 
@@ -227,15 +233,20 @@ a:hover {
     text-align: center;
     grid-gap: 10px;
     margin-bottom: 10px;
-    color: black;
+    color: var(--color-background);
 }
 
 .track .tid{
     border-radius: 10px;
-    background: #91D6E4;
+    background: var(--color-tertiary);
 }
 
 .track .aktivitet{
     border-radius: 10px;
-    background: #91D6E4;
+    background: var(--color-tertiary);
+}
+
+.aktivitetdelt .aktivitet{
+    border-radius: 10px;
+    background: var(--color-tertiary);
 }
